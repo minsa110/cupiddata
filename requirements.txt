@@ -1,0 +1,9 @@
+ipykernel 
+ipython
+ipython-genutils
+ipywidgets
+pandas
+matplotlib
+numpy
+scipy
+seaborn
