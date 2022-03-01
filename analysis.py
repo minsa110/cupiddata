@@ -5,9 +5,9 @@ import scipy.stats as stats
 import seaborn as sns
 
 # %%
-data = pd.read_parquet("parsed_data_public.parquet")
-question_data = pd.read_csv("question_data.csv", sep=";")
-test_items = pd.read_csv("test_items.csv") # cognititive ability test questions
+data = pd.read_parquet("data/parsed_data_public.parquet")
+question_data = pd.read_csv("data/question_data.csv", sep=";")
+test_items = pd.read_csv("data/test_items.csv") # cognititive ability test questions
 
 # %%
 data.d_age.describe()
